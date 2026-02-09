@@ -1,5 +1,0 @@
----
-title: "Our Services"
-subtitle: "Research, Data Science & Implementation"
-page-layout: full
----            

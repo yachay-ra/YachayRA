@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — YachayRA</title>
+  <meta name="description" content="Get in touch with YachayRA. We'd love to hear about your research needs in data science, implementation science, and health research consulting.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔬</text></svg>">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Contact — YachayRA">
+  <meta property="og:description" content="Get in touch with YachayRA. We'd love to hear about your research needs in data science, implementation science, and health research consulting.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://yachayra.com/contact.html">
+  <meta property="og:site_name" content="YachayRA">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Scripts -->
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+
+  <!-- ============================================
+       NAVIGATION
+       ============================================ -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="navbar-brand">Yachay<span>RA</span></a>
+      <div class="nav-links" id="navLinks">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="projects.html">Projects</a>
+        <a href="team.html">Team</a>
+        <a href="contact.html" class="active">Contact</a>
+      </div>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+  <div class="nav-overlay" id="navOverlay"></div>
+
+  <!-- ============================================
+       PAGE HERO
+       ============================================ -->
+  <section class="hero hero-page">
+    <div class="container">
+      <h1>Contact Us</h1>
+      <p class="subtitle">We'd love to hear about your research needs</p>
+    </div>
+  </section>
+
+  <!-- ============================================
+       CONTACT SECTION
+       ============================================ -->
+  <section class="section">
+    <div class="container">
+      <div class="contact-grid">
+
+        <!-- Left Column: Contact Info -->
+        <div class="contact-info">
+          <h3>Get in Touch</h3>
+          <p>Whether you have a specific project in mind or want to explore how we can support your research goals, we're here to help.</p>
+
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <strong>Email</strong>
+              <a href="mailto:hello@yachayra.com">hello@yachayra.com</a>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              <strong>Location</strong>
+              <span>Lima, Peru</span>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <i class="fas fa-clock"></i>
+            <div>
+              <strong>Response Time</strong>
+              <span>We typically respond within 24-48 hours</span>
+            </div>
+          </div>
+
+          <div class="contact-social">
+            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+
+        <!-- Right Column: Contact Form -->
+        <div class="contact-form">
+          <h3>Send Us a Message</h3>
+          <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject">
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" required placeholder="Tell us about your project or research needs..."></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Send Message</button>
+
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       FOOTER
+       ============================================ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-about">
+          <h4>YachayRA</h4>
+          <p>Research consulting firm specializing in data science, implementation science, and evidence-based solutions for health and social impact.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <a href="index.html">Home</a>
+          <a href="services.html">Services</a>
+          <a href="projects.html">Projects</a>
+          <a href="team.html">Team</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="footer-contact-info">
+          <h4>Contact</h4>
+          <p><i class="fas fa-envelope"></i> hello@yachayra.com</p>
+          <p><i class="fas fa-map-marker-alt"></i> Lima, Peru</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 YachayRA. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

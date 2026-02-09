@@ -1,17 +1,16 @@
-# gitignore for website
-
-## Claude files
+# Claude files
 CLAUDE.md
 
-## Mac system files
+# Mac system files
 .DS_Store
 
-## Quarto compiled files
-_site/
-/.quarto/
+# Legacy Quarto files
+legacy/
 
-# ico files
+# IDE
+.vscode/
+.idea/
+
+# Misc
 *.ico
-
-# license files
 license.txt
